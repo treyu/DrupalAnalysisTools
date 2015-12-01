@@ -49,7 +49,7 @@ parser.feed( content )
 page = "?page="
 maxPage = 1302
 
-for pageNum in range( 1300, maxPage ):
+for pageNum in range( 1, maxPage ):
     host = "https://www.drupal.org/project/project_module" + page + str(pageNum)
     print pageNum
     try:
